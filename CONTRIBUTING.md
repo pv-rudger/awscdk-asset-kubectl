@@ -53,10 +53,10 @@ If you would like to contribute a new Kubectl Asset with a different kubectl ver
 1. Open a new GitHub issue titled `Feature Request: Asset with kubectl vX.Y.Z`. We will track the progress of the new
 Asset in the issue.
 2. If we decide to support the requested version, a maintainer will create the new version by running the `new-kubectl-layer.sh`
-script, providing in the latest versions of kubectl and helm. For example, if bumping from Kubectl version 1.32.x,
+script, providing in the latest versions of kubectl and helm. For example, if bumping from Kubectl version 1.33.x,
 alongside Helm version 3.17.x, run the script as such:
 ```shell
-./bump.sh 32 17
+./bump.sh 33 17
 ```
 Alternatively, they could follow these legacy steps:
   - Open a new branch, `kubectl-vY/main` (Y is the minor version) and update the issue accordingly. The maintainer will also open a 
